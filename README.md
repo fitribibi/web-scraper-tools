@@ -2,7 +2,7 @@
 
 Web scraping is an activity to extract data information by parsing the html of a web page. Three main processes in web scraping are connecting to the target URL, then extracting the data, and storing the output as final steps. 
 
-In this project, I tried to get top 100 mobile phone products from an e-commerce website so I use Selenium for connecting to the target website URL, and then extract the data using Jsoup, and store the data as a CSV file using OpenCSV.
+In this project, I tried to get top 100 mobile phone products from an e-commerce website so I use Selenium for connecting to the target website URL, and then extract the data using Jsoup, and store the data as a CSV file using Jackson Dataformat CSV.
 
 What I used:
 - Maven
@@ -10,7 +10,7 @@ What I used:
 - Selenium
 - Chrome driver executable jar
 - Jsoup
-- OpenCSV
+- Jackson Dataformat CSV
 
 Run the program
 - After clone this project, mark chromedriver that located in root project as an executable jar. On my case, I run this command below
