@@ -13,7 +13,11 @@ What I used:
 - OpenCSV
 
 Run the program
-- To run the program, execute commands below in the root of project
+- After clone this project, mark chromedriver that located in root project as an executable jar. On my case, I run this command below
+```
+chmod +x chromedriver
+```
+- Then to run the program, execute commands below in the root of project
 
 ```
 mvn clean dependency:copy-dependencies package
